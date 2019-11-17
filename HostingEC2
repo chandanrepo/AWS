@@ -1,0 +1,18 @@
+#CONECT YO EC2 instace wihe key value pair
+
+yum update -y
+yum install httpd -y /installation Apache , it turns the EC2 instance to webserver\
+
+cd /var/www/html
+nano index.htlm
+
+<html> <h1> hello </h1>  </html>
+
+
+ctr+X , Enter
+
+Ls
+
+service httpd start  // for starting the service
+
+chkconfig on it starts the service autimatically if EC2 service accidently gets down
